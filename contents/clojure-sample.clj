@@ -12,4 +12,5 @@
                                     :metadata {:direction (rand-nth smoke-directions)}})]]
 
     {:command (rand-nth (flatten command-options))
-     :state {}}))
+     :state state
+     :time time-left}))
